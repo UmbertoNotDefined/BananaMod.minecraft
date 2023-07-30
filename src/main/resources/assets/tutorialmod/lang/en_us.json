@@ -1,6 +1,8 @@
 {
   "item.tutorialmod.sapphire" : "Sapphire",
   "item.tutorialmod.banana" : "Banana",
-  "item.tutorialmod.banana_fragment" : "Banana fragment",
+  "item.tutorialmod.banana_fragment" : "Banana Fragment",
+  "item.tutorialmod.banana_potion" : "Banana Potion",
+  "block.tutorialmod.sapphire_block" : "Block of Sapphire",
   "creativetab.tutorial_tab" : "Banana Mod"
 }

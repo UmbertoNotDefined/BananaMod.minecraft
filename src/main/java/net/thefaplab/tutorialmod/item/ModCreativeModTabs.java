@@ -4,11 +4,11 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.thefaplab.tutorialmod.TutorialMod;
+import net.thefaplab.tutorialmod.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODS_TAB =
@@ -17,11 +17,12 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODS_TAB.register("tutorial_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BANANA.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
-                    .displayItems((pParameters, pOutputs) -> {
-                        pOutputs.accept(ModItems.SAPPHIRE.get());
-                        pOutputs.accept(ModItems.BANANA.get());
-                        pOutputs.accept(ModItems.BANANA_FRAGMENT.get());
-
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModItems.BANANA.get());
+                        pOutput.accept(ModItems.BANANA_FRAGMENT.get());
+                        pOutput.accept(ModItems.BANANA_POTION.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
                     .build());
 
