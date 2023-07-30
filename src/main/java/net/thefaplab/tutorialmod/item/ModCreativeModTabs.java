@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BANANA_FRAGMENT.get());
                         pOutput.accept(ModItems.BANANA_POTION.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.BANANA_BLOCK.get());
                     })
                     .build());
 
