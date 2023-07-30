@@ -27,6 +27,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.thefaplab.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
 @Mod(TutorialMod.MOD_ID)
@@ -38,6 +39,8 @@ public class TutorialMod
     public TutorialMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -53,7 +56,9 @@ public class TutorialMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-       
+       if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+           event.accept(ModItems.SAPPHIRE);
+       }
     }
 
     @SubscribeEvent
