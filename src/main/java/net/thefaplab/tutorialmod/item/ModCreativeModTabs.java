@@ -20,6 +20,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutputs) -> {
                         pOutputs.accept(ModItems.SAPPHIRE.get());
                         pOutputs.accept(ModItems.BANANA.get());
+                        pOutputs.accept(ModItems.BANANA_FRAGMENT.get());
 
                     })
                     .build());
