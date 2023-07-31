@@ -67,6 +67,7 @@ public class TutorialMod
            event.accept(ModItems.BANANA_FRAGMENT);
            event.accept(ModItems.BANANA_POTION);
            event.accept(ModItems.COOKED_BANANA);
+           event.accept(ModItems.BANANA_CRYSTAL);
        }
 
     }

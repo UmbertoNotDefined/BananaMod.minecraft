@@ -26,6 +26,9 @@ public class ModItems {
     public static final RegistryObject<Item> BANANA_POTION = ITEMS.register("banana_potion",
             () -> new Item( new Item.Properties()));
 
+    public static final RegistryObject<Item> BANANA_CRYSTAL = ITEMS.register("banana_crystal",
+            () -> new Item( new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
