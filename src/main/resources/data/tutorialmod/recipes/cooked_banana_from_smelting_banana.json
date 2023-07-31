@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "tutorialmod:banana"
+  },
+  "result": "tutorialmod:cooked_banana"
+}
