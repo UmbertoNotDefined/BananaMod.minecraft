@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.BANANA_LOG.get());
                         pOutput.accept(ModBlocks.BANANA_LEAF.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE_BLOCK.get());
+                        pOutput.accept(ModBlocks.BANANA_CRYSTAL_BLOCK.get());
                     })
                     .build());
 

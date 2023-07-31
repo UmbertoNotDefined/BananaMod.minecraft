@@ -9,6 +9,7 @@
   "block.tutorialmod.banana_block" : "Bunch of Bananas",
   "block.tutorialmod.banana_log" : "Banana Log",
   "block.tutorialmod.banana_leaf" : "Banana Leaf",
-  "block.tutorialmod.sapphire_ore_block" : "Sapphire Ore Block",
+  "block.tutorialmod.sapphire_ore_block" : "Sapphire Ore",
+  "block.tutorialmod.banana_crystal_block" : "Crystal Block",
   "creativetab.tutorial_tab" : "Banana Mod"
 }
