@@ -26,6 +26,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> BANANA_BLOCK = registerBlock("banana_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PUMPKIN).sound(SoundType.NETHER_WART)));
 
+    public static final RegistryObject<Block> BANANA_LOG = registerBlock("banana_log",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PUMPKIN).sound(SoundType.NETHER_WART)));
+
+    public static final RegistryObject<Block> BANANA_LEAF = registerBlock("banana_leaf",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.CHERRY_LEAVES)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
