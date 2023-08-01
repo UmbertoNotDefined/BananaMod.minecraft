@@ -5,6 +5,8 @@
   "item.tutorialmod.banana_potion" : "Banana Potion",
   "item.tutorialmod.cooked_banana" : "Cooked Banana",
   "item.tutorialmod.banana_crystal" : "Banana Crystal",
+  "item.tutorialmod.banana_peel" : "Banana Peel",
+  "item.tutorialmod.peeled_banana" : "Peeled Banana",
   "block.tutorialmod.sapphire_block" : "Block of Sapphire",
   "block.tutorialmod.banana_block" : "Bunch of Bananas",
   "block.tutorialmod.banana_log" : "Banana Log",

@@ -24,8 +24,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BANANA_POTION.get());
                         pOutput.accept(ModItems.COOKED_BANANA.get());
                         pOutput.accept(ModItems.BANANA_CRYSTAL.get());
+                        pOutput.accept(ModItems.BANANA_PEEL.get());
+                        pOutput.accept(ModItems.PEELED_BANANA.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        pOutput.accept(ModBlocks.BANANA_BLOCK.get());
                         pOutput.accept(ModBlocks.BANANA_BLOCK.get());
                         pOutput.accept(ModBlocks.BANANA_LOG.get());
                         pOutput.accept(ModBlocks.BANANA_LEAF.get());
