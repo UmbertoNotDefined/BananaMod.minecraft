@@ -13,6 +13,10 @@ out
 *.iml
 .idea
 
+#assets
+src/main/resources/assets/tutorialmod/textures
+
+
 # gradle
 build
 .gradle
