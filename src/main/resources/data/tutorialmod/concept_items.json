@@ -1,0 +1,22 @@
+{
+  "items": [
+    "banana",
+    "peeled_banana",
+    "cooked_banana",
+    "banana_crystal",
+    "banana_peel",
+    "banana_fragment",
+    "sapphire",
+    "raw_sapphire"
+  ],
+  "blocks": [
+    "banana_block",
+    "peeled_banana_block",
+    "cooked_banana_block",
+    "banana_crystal_block",
+    "banana_peel_block",
+    "sapphire_block",
+    "raw_sapphire_block",
+    "sapphire_ore"
+  ]
+}
